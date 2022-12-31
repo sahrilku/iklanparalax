@@ -1,0 +1,19 @@
+<b:if cond='data:blog.isMobileRequest == &quot;true&quot;'>
+ <b:if cond='data:view.isPost'>
+  <div class='wendyparalax'>
+   <div>
+    <div>
+      <div>
+      <!-- iklan parallax fix -->
+<ins class='adsbygoogle' data-ad-client='ca-pub-xxxxxxxxxxxxxxxx' data-ad-slot='6500040497' style='display:inline-block;width:360px;height:600px'/>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+ <span class='clear'/>
+</div>
+<script> //<![CDATA[
+// munculkan iklan pada pragraf sekian by https://www.wendycode.com 
+function wendyparalax(Ad1) {let paralax = document.getElementsByClassName ('wendyparalax')[0]; if (paralax) {let Adsp = document.querySelectorAll ('.post-body p')[Ad1 - 1]; Adsp.parentNode .insertBefore (paralax, Adsp.nextSibling)}} wendyparalax(4);/*]]>*/</script></b:if></b:if>
